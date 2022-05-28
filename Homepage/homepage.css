@@ -1,7 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+
 html{
 
   background-color:  #040720;
+  font-family: 'Nanum Gothic Coding', monospace;
+  
+}
+
+
+#homePageMainContent{
+  
+  margin-left: 10rem;
 
 }
 
+#homePageHeader{
+  display: inline-block;
+}
+
+
+#homePageTypedOutText{
+
+  font-size: 5em;
+  color: white;
+  
+ 
+
+
+}
+
+#homePageHeaderSum{
+  float: left;
+  font-size: 1.7em;
+  margin-right: 24rem;
+  color: gray;
+  
+  text-align: justify;
+  text-justify: inter-word;
+
+}
 

@@ -4,34 +4,52 @@
 
     <head>
 
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="../Images/tabLogo.png"> 
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <link rel="stylesheet" href="../Homepage/homepage.css">
-        <link rel="stylesheet" href="../CSSElements/navBar.css">
+      <title> Dilshaan Sandhu | Portfolio</title>
+      <link rel="icon" href="../Images/tabLogo.png"> 
 
-        <title> Dilshaan Sandhu | Portfolio</title>
-        <script src="../JavaScriptElements/navBar.js"></script>
+      <link rel="stylesheet" href="../Homepage/homepage.css">
+      <link rel="stylesheet" href="../CSSElements/navBar.css">
+      <link rel="stylesheet" href="../CSSElements/typedOutText.css">
+        
+
+      
+      <script src="../JSElements/navBar.js"></script>
+      
+    
     </head>
     
     <body>
 
-      <div id="mySidenav" class="sidenav">
+      <div class="sideNav" id="homePageNavTransition">
         <a href="#">About&nbsp;Me</a>
-        <a href="#">Experince</a>
+        <a href="#">Experience</a>
         <a href="#">Extracurriculars</a>
         <a href="#">References</a>
         <a href="#">Contact</a>
 
       </div>
+      
+      <img class = "navBarImage" id ="homePageNavBarImage" src ="../Images/tabLogo.png" onclick="openOrCloseNav();openOrCloseNavH();"/>
+      
 
-    
-          
-          
-      <div id="main">
-        <img id = "navBarImage" src ="../Images/tabLogo.png" onclick="openOrCloseNav()"/>
+      
+      
+      <div class="mainContent" id="homePageMainContent"> 
+
+
+        
+        
+        <div id="homePageHeader">
+          <p class="typedOutText" id="homePageTypedOutText">Hi, Im Dilshaan!</p>
+        </div>
+
+        <p id="homePageHeaderSum">I'm a high school student interested in the feilds of Computer Science and Computer Engineering. I love working with anything tech-related, ranging from web development, to programming server-side in kotlin and to low-level progrmaming with arduions  </p>
+
+        
+      
       </div>
 
     </body>

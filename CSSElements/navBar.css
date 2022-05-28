@@ -1,54 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
 
-.sidenav {
+.sideNav {
+    
+    text-align: center;
     height: 100%; 
-    width: 0; 
+    width: 0%; 
     position: fixed;
     z-index: 1; 
     top: 0; 
     left: 0;
     background-color: #1A1110; 
     overflow-y: hidden; 
-    padding-top: 60px; 
+    padding-top: 0.2em; 
     transition: 0.7s; 
     
 }
   
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    margin-bottom: 30%;
+.sideNav a {
+    overflow:hidden;
+    
+    margin-top: 4.0rem;
+    
+
+    
     text-decoration: none;
-    font-size: 160%;
+    
+    font-size: 1.53em;
     font-family: 'Nanum Gothic Coding', monospace;
     color: whitesmoke;
+    
     display: block;
     transition: 0.7s;
     
 }
   
  
-.sidenav a:hover {
-    color: #89CFF0;
+.sideNav a:hover {
+    color: black;
+    background-color: whitesmoke;
 }
   
   
-
   
-  
-#main {
+.mainContent {
     transition: margin-left 0.7s;
-    padding: 20px;
+    padding-left: 1.0rem;
+    padding-top: 1.0rem;
 }
   
-  
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
 
-}
-
-#navBarImage{
+.navBarImage{
+    transition: margin-left 0.7s;
     height: 4%;
     width: 4%;
+    margin-top: 1.0rem;
+    margin-left:  1.0rem;
 }
