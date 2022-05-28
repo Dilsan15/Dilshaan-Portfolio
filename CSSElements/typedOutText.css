@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
 
 .typedOutText{
 
     overflow: hidden;
-    border-right: 0.16rem solid orange;
+    border-right: 0.16rem solid white;
     white-space: nowrap;
     animation: typing 5s, blinking 1s infinite;
     font-family: 'Nanum Gothic Coding';
@@ -20,6 +19,6 @@
 
 @keyframes blinking {
     from, to { border-color: transparent; }
-    70% { border-color: purple; }
+    70% { border-color: white; }
     
 }

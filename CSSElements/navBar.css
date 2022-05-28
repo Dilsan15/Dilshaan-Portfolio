@@ -9,7 +9,7 @@
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color: #1A1110; 
+    background-color: #8e8ee6; 
     overflow-y: hidden; 
     padding-top: 0.2em; 
     transition: 0.7s; 
@@ -21,14 +21,13 @@
     overflow:hidden;
     
     margin-top: 4.0rem;
-    
 
     
     text-decoration: none;
     
     font-size: 1.53em;
     font-family: 'Nanum Gothic Coding', monospace;
-    color: whitesmoke;
+    color: black;
     
     display: block;
     transition: 0.7s;
