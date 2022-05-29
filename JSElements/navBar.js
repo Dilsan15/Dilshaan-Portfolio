@@ -18,7 +18,7 @@ function openOrCloseNav() {
     else if (navState % 2 == 1){
 
         document.getElementsByClassName("sideNav")[0].style.width = "0%";
-        document.getElementsByClassName("mainContent")[0].style.marginLeft = "10rem";
+        document.getElementsByClassName("mainContent")[0].style.marginLeft = "14rem";
         document.getElementsByClassName("navBarImage")[0].style.marginLeft = "1rem";
         navState = 0
 

@@ -4,21 +4,24 @@
     overflow: hidden;
     border-right: 0.16rem solid white;
     white-space: nowrap;
-    animation: typing 5s, blinking 1s infinite;
+
+    animation: typingAnimation 3.5s, blinkingAnimation 1.25s infinite;
+
     font-family: 'Nanum Gothic Coding';
 }
 
 
   
-@keyframes typing {
+@keyframes typingAnimation {    
+
     from { width: 0% }
     to { width: 100%}
     
 
 }
 
-@keyframes blinking {
-    from, to { border-color: transparent; }
-    70% { border-color: white; }
+@keyframes blinkingAnimation {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
     
 }

@@ -9,7 +9,7 @@
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color: #8e8ee6; 
+    background-color: beige; 
     overflow-y: hidden; 
     padding-top: 0.2em; 
     transition: 0.7s; 
@@ -19,7 +19,7 @@
 
 .sideNav a {
     overflow:hidden;
-    
+    color: black;
     margin-top: 4.0rem;
 
     
@@ -27,7 +27,6 @@
     
     font-size: 1.53em;
     font-family: 'Nanum Gothic Coding', monospace;
-    color: black;
     
     display: block;
     transition: 0.7s;
@@ -36,7 +35,7 @@
   
  
 .sideNav a:hover {
-    color: black;
+    color: whitesmoke;
     background-color: whitesmoke;
 }
   
@@ -56,3 +55,4 @@
     margin-top: 1.0rem;
     margin-left:  1.0rem;
 }
+

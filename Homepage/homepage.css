@@ -1,42 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
 
+
 html{
 
-  background-color:  #050c47; 
+  background-color:  black; 
   font-family: 'Nanum Gothic Coding', monospace;
   
 }
 
 
 #homePageMainContent{
-  
-  margin-left: 10rem;
+
+  margin-left: 14rem;
 
 }
 
-#homePageHeader{
+#homePageTitle{
   display: inline-block;
+  
 }
 
 
 #homePageTypedOutText{
 
-  font-size: 5em;
+  font-size: 7em;
   color: white;
-  
- 
-
+  margin-bottom: 0  
 
 }
 
-#homePageHeaderSum{
+#homePageJobGoal{
+  font-size: 2.75em; 
+  color: darkgray;
+
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  
+}
+
+
+/* ...{
   float: left;
   font-size: 1.7em;
-  margin-right: 24rem;
-  color: gray;
-
+  margin-right: 25.5rem;
+  color: green;
   text-align: justify;
   text-justify: inter-word;
 
-}
+} */
 

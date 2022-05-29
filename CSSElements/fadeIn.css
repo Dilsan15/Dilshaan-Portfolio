@@ -1,0 +1,8 @@
+.fadeIn{
+    animation: fadeInAnimation 5s;
+}
+
+@keyframes fadeInAnimation{
+    from{opacity: 0%; margin-top: 9%;}
+    to{opacity: 100%;}
+}
