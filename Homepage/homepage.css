@@ -3,7 +3,8 @@
 
 html{
 
-  background-color:  black; 
+  scroll-behavior: smooth;
+  background-color: black; 
   font-family: 'Nanum Gothic Coding', monospace;
   
 }

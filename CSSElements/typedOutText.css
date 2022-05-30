@@ -2,7 +2,7 @@
 .typedOutText{
 
     overflow: hidden;
-    border-right: 0.16rem solid white;
+    border-right: 2px solid white;
     white-space: nowrap;
 
     animation: typingAnimation 3.5s, blinkingAnimation 1.25s infinite;

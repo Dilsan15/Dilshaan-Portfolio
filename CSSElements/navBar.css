@@ -9,7 +9,7 @@
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color: beige; 
+    background-color:  #90ee90; 
     overflow-y: hidden; 
     padding-top: 0.2em; 
     transition: 0.7s; 
@@ -35,8 +35,8 @@
   
  
 .sideNav a:hover {
-    color: whitesmoke;
-    background-color: whitesmoke;
+    color: black;
+    background-color: white;
 }
   
   
