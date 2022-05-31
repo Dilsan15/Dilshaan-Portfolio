@@ -49,7 +49,8 @@
   
 
 .navBarImage{
-    transition: margin-left 0.7s;
+    cursor: pointer;
+    transition : margin-left 0.5s ease-out, transform 1s ease-out;
     height: 9%;
     width: 4%;
     margin-top: 1.0rem;

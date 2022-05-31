@@ -13,6 +13,7 @@
     left:1rem; 
     border-radius: 50%;
     transition: margin-left 0.7s;
+    cursor: pointer;
 }
 
 .scrollUpImage{

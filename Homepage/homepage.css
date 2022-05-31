@@ -13,7 +13,8 @@ html{
 
 #homePageMainContent{
 
-  margin-left: 14rem;
+  margin-left: 10rem;
+  margin-right: 15rem;
   
   
 
@@ -38,7 +39,7 @@ html{
 
 #homePageJobGoal{
   font-size: 2.75em; 
-  color: darkgray;
+  color: orange;
 
   margin-top: 0.5rem;
   margin-bottom: 0;
@@ -64,8 +65,8 @@ html{
   
   float: left;
   font-size: 2.0em;
-  margin-right: 20rem;
-  color: orange;
+  
+  color: white;
   text-align: justify;
   text-justify: inter-word;
 
@@ -97,7 +98,11 @@ html{
 }
 
 #homePageMyGoalsImg{
-  width: 15em;
+  
+  width: fit-content;
+  margin-top: 6rem;
+  width: 50%;
+
 
 }
 
@@ -106,11 +111,16 @@ html{
   font-size: 2.0em;
   
   margin-top: 1rem;
-  margin-right: 20rem;
+  
 
-  color: orange;
+  color: white;
   text-align: justify;
   text-justify: inter-word;
 
 }
+
+#homePageMyGoalsText li{
+  margin-bottom: 3rem;
+}
+
 
