@@ -5,24 +5,18 @@
     
     background-color: beige;
     color:black;
-    
     font-size: 4em;
-
     height: 10%;
     width: 5%;
-
     position:fixed;
-    
-
-    
     bottom:1rem;
-    right:1rem; 
-    
+    left:1rem; 
     border-radius: 50%;
-    
+    transition: margin-left 0.7s;
 }
 
 .scrollUpImage{
+    transition: margin-left 0.7s;
     height: 90%;
     margin-top: 9%;
     
