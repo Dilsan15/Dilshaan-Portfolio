@@ -9,7 +9,7 @@
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color:  #90ee90; 
+    background-color: wheat; 
     overflow-y: hidden; 
     padding-top: 0.2em; 
     transition: 0.7s; 
@@ -34,7 +34,7 @@
 }
   
  
-.sideNav a:hover {
+.sideNav button:hover {
     color: black;
     background-color: white;
 }
@@ -50,9 +50,10 @@
 
 .navBarImage{
     transition: margin-left 0.7s;
-    height: 4%;
+    height: 9%;
     width: 4%;
     margin-top: 1.0rem;
     margin-left:  1.0rem;
+    position: fixed;
 }
 
