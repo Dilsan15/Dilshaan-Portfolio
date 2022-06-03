@@ -1,7 +1,9 @@
 
 #experiencePageHeader{
+
     margin-top: 3rem;
     display: inline-block;
+
 }
 
 #experiencePageTitle{
@@ -12,16 +14,17 @@
 
 
 #experiencePageHeadTyped{
-  
+
     margin-top: 13rem;
+    margin-bottom: 0;
   
     font-size: 7em;
     color: white;
-    margin-bottom: 0  
   
 }
   
 #experiencePageQuote{
+    
     font-size: 2.75em; 
     color: #69BF41;
   

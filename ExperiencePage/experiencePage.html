@@ -13,6 +13,7 @@
       
         <script src="../JSElements/navBar.js"></script>
         <script src="../JSElements/refreshScrollToTop.js"></script>
+        <script src="../JSElements/slideShow.js"></script>
         
         <link rel="stylesheet" href="../ExperiencePage/experiencePage.css">
         <link rel="stylesheet" href="../CSSElements/basicHtmlPage.css">
@@ -23,6 +24,7 @@
         <link rel="stylesheet" href="../CSSElements/fadeIn.css">
         <link rel="stylesheet" href="../CSSElements/autoScrollButton.css">
         <link rel="stylesheet" href="../CSSElements/scrollBar.css">
+        <link rel="stylesheet" href="../CSSElements/slideShow.css"
         
 
       
@@ -60,20 +62,17 @@
 
 
             </div>
-                    
+
+            <div class="w3-content w3-display-container">
+                
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            
                
         </div>
-        
-            
-      
-      
-      
-      
-      
-       
 
-      
-      
 
       <button class="autoScrollUpButton fadeIn" onclick="document.documentElement.scrollTop = 0;"><img class="scrollUpImage" src="../Images/blackScrollUpArrow.png"/></button>
 

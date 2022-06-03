@@ -1,7 +1,5 @@
 let navState = 0;
 
-
-
 function openOrCloseNav() {
     
     
