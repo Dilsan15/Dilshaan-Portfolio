@@ -15,14 +15,14 @@
       <script src="../JSElements/refreshScrollToTop.js"></script>
       
 
-
-      <link rel="stylesheet" href="../Homepage/homepage.css">
+      <link rel="stylesheet" href="../CSSElements/basicHtmlPage.css">
+      <link rel="stylesheet" href="../Homepage/homePage.css">
       <link rel="stylesheet" href="../CSSElements/navBar.css">
       <link rel="stylesheet" href="../CSSElements/typedOutText.css">
       <link rel="stylesheet" href="../CSSElements/boxedOutText.css">
       <link rel="stylesheet" href="../CSSElements/fadeIn.css">
       <link rel="stylesheet" href="../CSSElements/autoScrollButton.css">
-      <link rel="stylesheet" href="../CSSElements/scrollBar.css"
+      <link rel="stylesheet" href="../CSSElements/scrollBar.css">
         
 
       
@@ -33,16 +33,16 @@
     
     <body>
 
-      <div class="sideNav" id="homePageNavTransition">
-        <a href="#">&lt;&nbsp;&nbsp;About&nbsp;Me&nbsp;&nbsp;&gt;</a>
-        <a href="#">&lt;&nbsp;&nbsp;Experience&nbsp;&nbsp;&gt;</a>
-        <a href="#">&lt;&nbsp;&nbsp;Extracurriculars&nbsp;&nbsp;&gt;</a>
-        <a href="#">&lt;&nbsp;&nbsp;References&nbsp;&nbsp;&gt;</a>
-        <a href="#">&lt;&nbsp;&nbsp;Contact&nbsp;&nbsp;&gt;</a>
+      <div class="sideNav">
+        <a href="../Homepage/index.html">About&nbsp;Me</a>
+        <a href="../ExperiencePage/experiencePage.html">Experience</a>
+        <a href="#">Extracurriculars</a>
+        <a href="#">References</a>
+        <a href="#">Contact</a>
 
       </div>
       
-      <img class = "navBarImage" id ="homePageNavBarImage" src ="../Images/tabLogo.png" onclick="openOrCloseNav();"/>
+      <img class = "navBarImage"  src ="../Images/tabLogo.png" onclick="openOrCloseNav();"/>
       
 
       
@@ -50,67 +50,64 @@
       <div class="mainContent" id="homePageMainContent">
 
         <div id="homePageTitle">
-          <p class="typedOutText" id="homePageTypedOutText">Hi, I'm Dilshaan! </p>
+
+          <p class="typedOutText" id="homePageHeaderTypedOut">Hi, I'm Dilshaan!&thinsp;</p>
           <p class="fadeIn" id = "homePageJobGoal">An Aspiring Computer Engineer</p>
+       
         </div>
           
         <div id="homePageAboutMe" class="fadeIn">
+          
           <div id="homePageAboutMeHeader">
-            <h2  class="typedOutText">About Me&ensp;</h2>
+          
+            <h2 class="typedOutText">About Me</h2>
+          
           </div>
           
           <p id="homePageAboutMeText">I'm a Canadian high school student interested in the feild of computer science and mechatronics. I have spend my free time programming small applications and working with computer hardware.</p>
         
         </div>
 
+
         
-          <div id="homePageMyGoals">
+        <div id="homePageMyGoals" class="fadeIn">
             
               
-            <div class="fadeIn">
+            
     
-              <div id="homePageMyGoalsImg">
-                <img  src="../Images/whiteScrollUpArrow.png" />
-              </div>
+          <div id="homePageMyGoalsImg">
+            <img  src="../Images/whiteScrollUpArrow.png" />
+          </div>
               
-              <div id="homePageMyGoalsHeader">
-                <h2 class="typedOutText">Future Goals&ensp;</h2>
-
-              </div>
+          <div id="homePageMyGoalsHeader">
+            <h2 class="typedOutText">Future Goals</h2>
+          </div>
               
-              <div>
+              
                 
-                <ul id="homePageMyGoalsText">
-                  <li>
-                    Spend my high school years learning the fundamentals of software engineering and computer engineering
-                  </li>
+          <ul id="homePageMyGoalsText">
+            <li>
+              Spend my high school years learning the fundamentals of software engineering and computer engineering
+            </li>
                   
-                  <li>
-                    Enroll in an accredited post-secondary 
-                  </li>
+            <li>
+              Enroll in an accredited post-secondary 
+            </li>
                   
-                  <li>
-                    Prusue a career in the tech feild, relating to software engineering and robotics engineering. 
-                  </li>
+            <li>
+              Prusue a career in the tech feild, relating to software engineering and robotics engineering. 
+            </li>
 
-                </ul>
+          </ul>
 
             
-              </div>  
-            </div>
-          
-          </div>
-              
-              
               
             
-
             
-            
-            
-
            
-          </div>
+          
+              
+        </div>
         
                 
       </div>

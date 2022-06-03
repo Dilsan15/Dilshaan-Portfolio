@@ -9,13 +9,13 @@ function openOrCloseNav() {
     if (navState % 2 == 0){
         
         
-        document.getElementsByClassName("sideNav")[0].style.width = "19%";
+        document.getElementsByClassName("sideNav")[0].style.width = "15%";
         document.getElementsByClassName("mainContent")[0].style.marginLeft = "20rem";
 
         document.getElementsByClassName("navBarImage")[0].style.transform = "rotate(90deg)";
-        document.getElementsByClassName("navBarImage")[0].style.marginLeft = "20rem";
+        document.getElementsByClassName("navBarImage")[0].style.marginLeft = "14.5rem";
 
-        document.getElementsByClassName("autoScrollUpButton")[0].style.marginLeft = "20rem";
+        document.getElementsByClassName("autoScrollUpButton")[0].style.marginLeft = "14.0rem";
         
         navState = 1
     }

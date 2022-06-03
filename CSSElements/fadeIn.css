@@ -3,6 +3,6 @@
 }
 
 @keyframes fadeInAnimation{
-    from{opacity: 0%; margin-top: 1%;}
+    from{opacity: 0%; margin-top: 10%;}
     to{opacity: 100%;}
 }

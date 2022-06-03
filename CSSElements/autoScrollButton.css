@@ -3,14 +3,14 @@
 
 .autoScrollUpButton{
     
-    background-color: beige;
+    background-color: burlywood;
     color:black;
     font-size: 4em;
     height: 10%;
     width: 5%;
     position:fixed;
     bottom:1rem;
-    left:1rem; 
+    right:1rem; 
     border-radius: 50%;
     transition: margin-left 0.7s;
     cursor: pointer;
