@@ -6,7 +6,3 @@
 
 - <a href="https://stackoverflow.com/questions/3664381/ force-page-scroll-position-to-top-at-page-refresh-in-html by Alex Having Fun">Scroll To Top On Refresh <a>
 
-=======
-- <a href="https://stackoverflow.com/questions/3664381/   force-page-scroll-position-to-top-at-page-refresh-in-html by Alex Having Fun">Scroll To Top On Refresh </a>
-
->>>>>>> 5465236243546f46cfa95501eb1d7190dd1dcdc5
