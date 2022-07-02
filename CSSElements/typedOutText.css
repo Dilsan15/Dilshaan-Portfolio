@@ -5,9 +5,14 @@
     border-right: 2px solid white;
     white-space: nowrap;
 
-    animation: typingAnimation 3.5s, blinkingAnimation 1.25s infinite;
+    
 
     
+}
+
+.typedOutText.active{
+    
+    animation: typingAnimation 3.5s, blinkingAnimation 1.25s infinite;
 }
 
 
@@ -17,7 +22,6 @@
     from { width: 0% }
     to { width: 100%}
     
-
 }
 
 @keyframes blinkingAnimation {

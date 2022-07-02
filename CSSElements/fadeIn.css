@@ -1,11 +1,15 @@
-.fadeIn{
-    
-    animation: fadeInAnimation 5s;
+.fadeInVis{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
 }
 
-@keyframes fadeInAnimation{
-
-    from{opacity: 0%; margin-top: 10%;}
-    to{opacity: 100%;}
-
+  
+.fadeInVis.active{
+    transform: translateY(0);
+    opacity: 1;
 }
+
+
+
