@@ -5,20 +5,23 @@
     
     background-color: burlywood;
     color:black;
-    font-size: 4em;
-    height: 10%;
-    width: 5%;
+    
+    height: auto;
+    max-width: 6%;
+
     position:fixed;
     bottom:1rem;
     right:1rem; 
-    border-radius: 50%;
-    transition: margin-left 0.7s;
+    
+    border-radius:  30%;
     cursor: pointer;
 }
 
 .scrollUpImage{
-    transition: margin-left 0.7s;
-    height: 90%;
-    margin-top: 9%;
+    
+    margin-top: 0.5rem;
+    max-width: 90%;
+    height: auto;
+
     
 }

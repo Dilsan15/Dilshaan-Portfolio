@@ -1,34 +1,32 @@
-let navState = 0;
+let navOpen = false;
 
 function openOrCloseNav() {
     
     
 
-    if (navState % 2 == 0){
+    if (navOpen == false){
         
         
-        document.getElementsByClassName("sideNav")[0].style.width = "15%";
-        document.getElementsByClassName("mainContent")[0].style.marginLeft = "20rem";
+        document.getElementsByClassName("sideNav")[0].style.width = "17rem";
+        document.getElementsByClassName("mainContent")[0].style.marginLeft = "25rem";
 
         document.getElementsByClassName("navBarImage")[0].style.transform = "rotate(90deg)";
-        document.getElementsByClassName("navBarImage")[0].style.marginLeft = "14.5rem";
+        document.getElementsByClassName("navBarImage")[0].style.marginLeft = "18rem";
 
-        document.getElementsByClassName("autoScrollUpButton")[0].style.marginLeft = "14.0rem";
         
-        navState = 1
+        
+        navOpen = true
     }
 
-    else if (navState % 2 == 1){
+    else if (navOpen == true){
 
         document.getElementsByClassName("sideNav")[0].style.width = "0%";
-        document.getElementsByClassName("mainContent")[0].style.marginLeft = "14rem";
+        document.getElementsByClassName("mainContent")[0].style.marginLeft = "10rem";
         
         document.getElementsByClassName("navBarImage")[0].style.transform = "rotate(0deg)";
         document.getElementsByClassName("navBarImage")[0].style.marginLeft = "1rem";
         
-        document.getElementsByClassName("autoScrollUpButton")[0].style.marginLeft = "1rem";
-        
-        navState = 0
+        navOpen = false
 
     }
     

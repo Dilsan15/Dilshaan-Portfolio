@@ -2,11 +2,12 @@
 
 .sideNav {
     
+    font-size: 1vw;
     height: 100%; 
     width: 0%; 
     top: 0; 
     left: 0;
-    padding-top: 0.2em;
+    padding-top: 0.2rem;
 
     position: fixed;
     z-index: 1; 
@@ -20,16 +21,18 @@
 
 .sideNav a {
 
-    padding-top: 4.0rem;
-    padding-bottom: 4.0rem;
-    padding-left: 1.2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+
     overflow:hidden;
     display: block;
 
     color: black;
     text-decoration: none;
     
-    font-size: 1.53em;
+    font-size: 1.9vw;
     font-family: 'Nanum Gothic Coding', monospace;
 
     transition: 0.7s;
@@ -51,7 +54,7 @@
     padding-top: 1.0rem;
 
     margin-left: 14.5rem;
-    margin-right: 15rem;
+    margin-right: 10rem;
 
     transition: margin-left 0.7s;
 
@@ -60,15 +63,14 @@
 
 .navBarImage{
 
-    height: 10%;
-    width: 5%;
+    height: auto;
+    max-width: 5%;
 
-    margin-top: 1.0rem;
-    margin-left:  1.0rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
     position: fixed;
-
     cursor: pointer; 
-    transition : margin-left 0.5s ease-out, transform 1s ease-out;
+    transition: margin-left 0.5s ease-out, transform 1s ease-out;
 
 }
 
