@@ -13,14 +13,15 @@
       <link rel="icon" href="../Images/tabLogo.png"> 
       
       <script src="../JSElements/navBar.js"></script>
-      <script src="../JSElements/refreshScrollToTop.js"></script>
+      <script src="../JSElements/scrollToTop.js"></script>
       <script src="../JSElements/fadeInVis.js"></script>
       <script src="../JSElements/onVis.js"></script>
 
 
 
-      <link rel="stylesheet" href="../CSSElements/basicHtmlPage.css">
-      <link rel="stylesheet" href="../Homepage/homePage.css">
+      
+      <link rel="stylesheet" href="../HomePage/homePage.css">
+      <link rel="stylesheet" href="../CSSElements/basicHtml.css">
       <link rel="stylesheet" href="../CSSElements/navBar.css">
       <link rel="stylesheet" href="../CSSElements/typedOutText.css">
       <link rel="stylesheet" href="../CSSElements/boxedOutText.css">
@@ -34,7 +35,7 @@
     <body>
 
       <div class="sideNav">
-        <a href="../Homepage/index.html">About&nbsp;Me</a>
+        <a href="..//index.html">About&nbsp;Me</a>
         <a href="../ExperiencePage/experiencePage.html">Experience</a>
         <a href="#">Extracurriculars</a>
         <a href="#">References</a>
@@ -46,15 +47,15 @@
         
       <img class = "navBarImage" src ="../Images/tabLogo.png" onclick="openOrCloseNav();"/>
       
-      <div class="mainContent" id="homePageMainContent">
+      <div class="mainContent">
 
-        
+      
       
         
-        <div id="homePageTitle">
+        <div id="basicTitleDiv">
 
-          <p class="typedOutText" id="homePageHeaderTypedOut">Hi, I'm Dilshaan! </p>
-          <p class="fadeInVis" id = "homePageJobGoal">An Aspiring Engineer</p>
+          <p class="typedOutText" id="basicTitleText">Hi, I'm Dilshaan!</p>
+          <p class="fadeInVis" id="basicSubTitle">An Aspiring Engineer</p>
          
         </div>
           
@@ -62,35 +63,35 @@
         
          
        
-        <div id="homePageAboutMe" class="fadeInVis">
+        <div class="fadeInVis basicDiv">
           
-         <div id="homePageAboutMeHeader">
+         <div class="basicHeader">
             
-            <h2 class="typedOutText">About Me </h2>
+            <h2 class="typedOutText">About Me</h2>
             
           </div>
             
-          <p id="homePageAboutMeText">I'm a Canadian high school student interested in the field of Computer Science and Mechatronics. I spend my free time programming small applications and working with basic computer hardware/electronics.</p>
+          <p class="basicText">I'm a Canadian high school student interested in the field of Computer Science and Mechatronics. I spend my free time programming small applications and working with basic computer hardware/electronics.</p>
           
         </div>
           
   
         
 
-        <div id="homePageMyGoals" class="fadeInVis">
+        <div class="fadeInVis basicDiv">
              
     
-          <div id="homePageMyGoalsImg">
-            <img  src="../Images/whiteScrollUpArrow.png" />
+          <div class="basicSideImgDiv">
+            <img id="myGoalsImg" src="../Images/whiteScrollUpArrow.png" />
           </div>
               
-          <div id="homePageMyGoalsHeader">
+          <div class="basicHeader">
             <h2 class="typedOutText">Future Goals </h2>
           </div>
               
 
               
-          <ul id="homePageMyGoalsText">
+          <ul class="basicText">
             <li>
               Spend my high school years learning the fundamentals of Software, Computer and Mechanical Engineering.
             </li>

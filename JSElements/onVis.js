@@ -17,9 +17,11 @@ function animateOnVis() {
     if (elementTopF < windowHeightF - elementVisibleF) {
       revealsF[i].classList.add("active");
       revealsT[i].classList.add("active"); 
+      
      } else {
       revealsF[i].classList.remove("active");
       revealsT[i].classList.remove("active"); 
+      
         
     }
   }
@@ -27,11 +29,13 @@ function animateOnVis() {
 
 window.addEventListener("scroll", animateOnVis);
 
-
-sleep(500).then(() => {
+sleep(65).then(() => {
   animateOnVis()
+  
 
 });
+
+
 
 
 

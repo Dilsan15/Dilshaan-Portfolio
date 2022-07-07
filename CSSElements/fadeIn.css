@@ -1,8 +1,8 @@
 .fadeInVis{
     position: relative;
-    transform: translateY(150px);
+    transform: translateY(10rem);
     opacity: 0;
-    transition: 2s all ease;
+    transition: 3s all ease;
 }
 
   

@@ -21,8 +21,8 @@ function openOrCloseNav() {
     else if (navOpen == true){
 
         document.getElementsByClassName("sideNav")[0].style.width = "0%";
-        document.getElementsByClassName("mainContent")[0].style.marginLeft = "10rem";
-        
+        document.getElementsByClassName("mainContent")[0].style.marginLeft = "9rem";
+                
         document.getElementsByClassName("navBarImage")[0].style.transform = "rotate(0deg)";
         document.getElementsByClassName("navBarImage")[0].style.marginLeft = "1rem";
         
