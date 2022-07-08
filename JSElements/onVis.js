@@ -29,7 +29,7 @@ function animateOnVis() {
 
 window.addEventListener("scroll", animateOnVis);
 
-sleep(65).then(() => {
+sleep(75).then(() => {
   animateOnVis()
   
 

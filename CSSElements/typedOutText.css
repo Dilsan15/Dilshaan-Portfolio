@@ -2,7 +2,7 @@
 .typedOutText{
 
     overflow: hidden;
-    border-right: 2px solid white;
+    border-right: 2px solid #69BF41;
     white-space: nowrap;
     
 
@@ -28,6 +28,6 @@
 
 @keyframes blinkingAnimation {
     from, to { border-color: transparent }
-    50% { border-color: white; }
+    50% { border-color: white; 
     
 }

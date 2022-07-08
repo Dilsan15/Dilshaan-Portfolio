@@ -1,8 +1,14 @@
 
 html{
 
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     scroll-behavior: smooth;
-    background-color: #231F20; 
+    background-color: black; 
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 1vw;
     padding-bottom: 5rem;
@@ -21,13 +27,13 @@ html{
     margin-top: 13rem;
     margin-bottom: -2rem;
     color: white;
-    font-size: 7vw;
+    font-size: 8vw;
     
 }
 
 #basicSubTitle{
     color: #69BF41;
-    font-size: 3.5vw; 
+    font-size: 4vw; 
 
 }
 
@@ -35,10 +41,10 @@ html{
 .basicDiv{
     margin-top: 16rem;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 3rem;
     display: inline-block;
-    background-color: #363233;
-
+    background-color: #000133;
+    border: solid 0.15rem white;
 }
 
 .basicHeader{
@@ -46,13 +52,13 @@ html{
     font-size: 3vw;
     font-family:  monospace;
 
-    color: #69BF41;
+    color: orange;
     display: inline-block;
 
 }
 
 .basicText{
-    font-size: 2.0vw;
+    font-size: 2.5vw;
     color: white;
 }
 
