@@ -1,14 +1,18 @@
 .fadeInVis{
+
     position: relative;
     transform: translateY(10rem);
     opacity: 0;
     transition: 3s all ease;
+
 }
 
   
 .fadeInVis.active{
+    
     transform: translateY(0);
     opacity: 1;
+
 }
 
 

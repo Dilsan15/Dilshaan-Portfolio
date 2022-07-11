@@ -1,6 +1,5 @@
-
-function sleep (time) {
-  return new Promise((resolve) => setTimeout(resolve, time));
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 function animateOnVis() {
@@ -10,18 +9,20 @@ function animateOnVis() {
 
   
   for (var i = 0; i < revealsF.length; i++) {
+
     var windowHeightF = window.innerHeight;
     var elementTopF = revealsF[i].getBoundingClientRect().top;
     var elementVisibleF = 150;
   
     if (elementTopF < windowHeightF - elementVisibleF) {
+
       revealsF[i].classList.add("active");
       revealsT[i].classList.add("active"); 
       
      } else {
+
       revealsF[i].classList.remove("active");
       revealsT[i].classList.remove("active"); 
-      
         
     }
   }
@@ -30,9 +31,9 @@ function animateOnVis() {
 window.addEventListener("scroll", animateOnVis);
 
 sleep(75).then(() => {
+
   animateOnVis()
   
-
 });
 
 
