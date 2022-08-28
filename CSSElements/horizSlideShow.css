@@ -1,0 +1,60 @@
+.horizontalSlideShowContainer{
+    width: 100%; 
+    overflow: hidden;
+    transition: all 2s;
+
+ 
+}
+
+
+.horizontalSlideShowLinks{
+    margin-top: 4.25rem;
+    
+}
+
+.horizontalSlideShowLinks a{
+    display: block;
+    margin-top: 2.6rem;
+    color: lightblue;
+    font-size: 2.0vw;
+    transition: all 1s;
+   
+}
+
+.horizontalSlideShowLinks ul{
+    width: 100%;
+    display: table;
+    margin-left: 4rem;
+}
+
+
+.horizontalSlideShowLinks a:hover{
+    color: orange;
+    opacity: 1;
+    
+    
+}
+
+.horizontalSlideShowLinks li{
+    list-style: none;
+    display: table-cell;
+    
+    
+}
+
+
+.horizontalSlideShowData{
+    width: 90%;
+    
+}
+
+.horizontalSlideShowData h1{
+    font-size: 3vw;
+    color: white;
+
+    
+}
+
+.horizontalSlideHeading{
+    animation: fadeIn 2s;
+}

@@ -1,14 +1,14 @@
 
-currentPId = "CN"
-lastPId = "CN"
+currentVertPId = "FS1"
+lastVertPId = "FS1"
 
-function changeSlide(linkText){
+function changeSlideVert(linkText){
     
 
-    lastSlideLi = document.getElementById(currentPId).getElementsByTagName("ul")[0].getElementsByTagName("li")
+    lastSlideLi = document.getElementById(currentVertPId).getElementsByTagName("ul")[0].getElementsByTagName("li")
 
 
-    if (lastPId != ""){
+    if (lastVertPId != ""){
 
        for (let lastDesc of lastSlideLi){
         
@@ -18,15 +18,15 @@ function changeSlide(linkText){
     }
 
     
-    titleSlide = document.getElementsByClassName("slideHeading")[0]
+    titleSlide = document.getElementsByClassName("verticalSlideHeading")[0]
     titleSlide.innerHTML = linkText.innerHTML
     titleSlide.style.animation = 'none';
     titleSlide.offsetHeight; 
     titleSlide.style.animation = null; 
 
 
-    currentPId=linkText.innerHTML.replace(/[a-z]/g, '').split(" ").join("")
-    let currentSlideLi = document.getElementById(currentPId).getElementsByTagName("ul")[0].getElementsByTagName("li")
+    currentVertPId=linkText.innerHTML.replace(/[a-z\-]/g, '').split(" ").join("")
+    let currentSlideLi = document.getElementById(currentVertPId).getElementsByTagName("ul")[0].getElementsByTagName("li")
     let timeOut = 1000
     
 
@@ -34,7 +34,7 @@ function changeSlide(linkText){
 
     for (let preLinks of linkBar){
         
-        if (currentPId == preLinks.innerHTML.replace(/[a-z]/g, '').split(" ").join("")){
+        if (currentVertPId == preLinks.innerHTML.replace(/[a-z]/g, '').split(" ").join("")){
             preLinks.classList.remove("linkHalfVis")
 
             continue
@@ -63,7 +63,7 @@ function changeSlide(linkText){
     }
     
 
-    lastPId = currentPId
+    lastVertPId = currentVertPId
     
 
 

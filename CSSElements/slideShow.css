@@ -1,0 +1,27 @@
+.slideShowDiv{
+    width: 100%;
+}
+
+
+.noVis{
+    opacity: 0;
+    position: absolute;
+    z-index: 9;
+    
+    
+}
+
+.fadeInLi{
+    animation: fadeIn 2s;
+}
+
+
+@keyframes fadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.linkHalfVis{
+    opacity: 0.5;
+}
+

@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="../CSSElements/typedOutText.css">
         <link rel="stylesheet" href="../CSSElements/verticalSlideShow.css">
         <link rel="stylesheet" href="../CSSElements/horizSlideShow.css">
+        <link rel="stylesheet" href="../CSSElements/slideShow.css"
         <link rel="stylesheet" href="../CSSElements/fadeIn.css">
         <link rel="stylesheet" href="../CSSElements/autoScrollButton.css">
         <link rel="stylesheet" href="../CSSElements/scrollBar.css">
@@ -49,35 +50,30 @@
             
             <div id="basicTitleDiv">
 
-                
                 <p class="typedOutText" id="basicTitleText">My <span style="color: #ac83e6">Experience</span></p>
-                
-
                 <p class="fadeInVis" id = "eBasicSubTitle"><span style="color:#0096FF">Knowledge</span> = <span style="color: #ffad64;">Education + Experience</span></p>
-                  
-
 
             </div>
 
-            <div id = "jobSlideShow" class="fadeInVis basicDiv">
+            <div class="fadeInVis basicDiv slideShowDiv">
                 <div class="basicHeader">
                     <h2 class="typedOutText">Work Experience</h2>
                 </div>
                 
-                <div class="slideShowContainer">
-                    <div class="slideShowLinks">
+                <div class="verticalSlideShowContainer">
+                    <div class="verticalSlideShowLinks">
                         <ul>
-                            <li class=""><a onclick="changeSlide(this)">Code Ninjas</a></li>
-                            <li><a class="linkHalfVis"  onclick="changeSlide(this)">Stem Away</a></li>
-                            <li><a class="linkHalfVis" onclick="changeSlide(this)">Astro Developments</a></li>
-                            <li><<a class="linkHalfVis" onclick="changeSlide(this)">Private Tutoring</a></li>
+                            <li class=""><a onclick="changeSlideVert(this)">Youreka Edmonton</a></li>
+                            <li><a class="linkHalfVis"  onclick="changeSlideVert(this)">Stem-Away</a></li>
+                            <li><a class="linkHalfVis" onclick="changeSlideVert(this)">Astro Developments</a></li>
+                            <li><a class="linkHalfVis" onclick="changeSlideVert(this)">Private Tutoring</a></li>
                         </ul>
                     </div>
-                    <div class="slideShowData"> 
+                    <div class="verticalSlideShowData"> 
                         
-                        <h1 class="slideHeading">Code Ninjas</h1>
+                        <h1 class="verticalSlideHeading">Youreka Edmonton</h1>
                         
-                        <div class="basicText" id="CN">
+                        <div class="basicText" id="FS1">
                             <ul>
                                 <li>CLorem ipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li>
                                 <li>NLorem ipsum dolor sit amet consectetur adipisicing elit. Ea earum repellendus nobis distinctio dolorem neque tempora. Praesentium dolore sed, suscipit repudiandae neque tempora, consectetur exercitationem laboriosam, quis natus nemo odit!</li>
@@ -105,6 +101,56 @@
                             </ul>
                         </div>
             
+                    </div>
+    
+
+                </div>
+                
+
+                
+            </div>
+
+            <div class="fadeInVis basicDiv slideShowDiv">
+                <div class="basicHeader">
+                    <h2 class="typedOutText">Education</h2>
+                </div>
+                
+                <div class="horizontalSlideShowContainer">
+                    
+                    <div class="horizontalSlideShowData"> 
+                        
+                        <h1 class="horizontalslideHeading">Dr. Anne Anderson High School</h1>
+                        
+                        <div class="basicText" id="FS2">
+                            <ul>
+                                <li>CLorem ipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li>
+                                <li>NLorem ipsum dolor sit amet consectetur adipisicing elit. Ea earum repellendus nobis distinctio dolorem neque tempora. Praesentium dolore sed, suscipit repudiandae neque tempora, consectetur exercitationem laboriosam, quis natus nemo odit!</li>
+                            </ul>
+                        </div>
+
+                        <div class="basicText" id="AS">
+                            <ul>
+                                <li class="noVis">Sipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li> 
+                                <li class="noVis">Adorem ipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li>
+                            </ul>
+                        </div>
+
+                        <div class="basicText" id="AM">
+                            <ul>
+                                <li class="noVis">Aipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li> 
+                                <li class="noVis">Ddorem ipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li>
+                            </ul>
+                        </div>
+
+            
+                    </div>
+
+                    <div class="horizontalSlideShowLinks">
+                        <ul>
+                            <li class=""><a onclick="changeSlideHoriz(this)">DAAHS</a></li>
+                            <li><a class="linkHalfVis"  onclick="changeSlideHoriz(this)">AACS</a></li>
+                            <li><a class="linkHalfVis" onclick="changeSlideHoriz(this)">ABM</a></li>
+                        </ul>
                     </div>
     
 
