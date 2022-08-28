@@ -4,7 +4,6 @@ let navOpen = false;
 function openOrCloseNav() {
 
     if (navOpen == false){
-        
         document.getElementById("sideNav").style.width = "19vw";
         document.getElementById("mainContent").style.marginLeft = "25rem";
         document.getElementById("navBarImage").style.transform = "rotate(90deg)";
@@ -13,7 +12,7 @@ function openOrCloseNav() {
         if (screen.width < 960){
             document.getElementById('sideNav').style.width = "100%"
             document.getElementById('sideNav').style.scrollBehavior = "auto"
-
+            document.getElementById('sideNav').style.color = "grey"
         }
            
         navOpen = true
@@ -31,3 +30,6 @@ function openOrCloseNav() {
     }
     
 }
+
+openOrCloseNav()
+

@@ -15,8 +15,8 @@ window.onscroll = function() {
       }
 };
 
-history.scrollRestoration = "manual";
 
-$(window).on('beforeunload', function(){
-      $(window).scrollTop(0);
-});
+history.scrollRestoration = "manual";
+window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+}

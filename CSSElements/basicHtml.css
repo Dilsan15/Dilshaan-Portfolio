@@ -75,5 +75,8 @@ html{
   
 }
 
+.disabledLink{
+    pointer-events: none;
+}
 
 

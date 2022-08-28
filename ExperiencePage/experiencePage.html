@@ -8,71 +8,119 @@
       
 
         <title> Dilshaan Sandhu | Portfolio</title>
-        <link rel="icon" href="../Images/tabLogo.png"> 
+        <link rel="icon" href="../Images/personalLogo.png"> 
       
         <script src="../JSElements/navBar.js"></script>
-        <script src="../JSElements/refreshScrollToTop.js"></script>
-        <script src="../JSElements/slideShow.js"></script>
-        
+        <script src="../JSElements/scrollToTop.js"></script>
+        <script src="../JSElements/onVis.js"></script>
+        <script src="../JSElements/slideShowVertical.js"></script>
+        <script src="../JSElements/slideShowHoriz.js"></script>
+
         <link rel="stylesheet" href="../ExperiencePage/experiencePage.css">
         <link rel="stylesheet" href="../CSSElements/basicHtml.css">
-
         <link rel="stylesheet" href="../CSSElements/navBar.css">
         <link rel="stylesheet" href="../CSSElements/typedOutText.css">
+        <link rel="stylesheet" href="../CSSElements/verticalSlideShow.css">
+        <link rel="stylesheet" href="../CSSElements/horizSlideShow.css">
         <link rel="stylesheet" href="../CSSElements/fadeIn.css">
         <link rel="stylesheet" href="../CSSElements/autoScrollButton.css">
         <link rel="stylesheet" href="../CSSElements/scrollBar.css">
-        <link rel="stylesheet" href="../CSSElements/slideShow.css">
         
-
-      
-      
       
     
     </head>
     
     <body>
 
-      <div class="sideNav">
+        <div id="sideNav" style="text-align: center;">
+            <img style="max-width: 40%; margin: 1rem;"src="../Images/personalLogo.png""/>
             <a href="../HomePage/index.html">About&nbsp;Me</a>
             <a href="../ExperiencePage/experiencePage.html">Experience</a>
             <a href="#">Extracurriculars</a>
             <a href="#">References</a>
             <a href="#">Contact</a>
-
+    
         </div>
+        
+        <img id="navBarImage"  src ="../Images/tabLogo.png" onclick="openOrCloseNav();"/>
       
-        <img class = "navBarImage"  src ="../Images/tabLogo.png" onclick="openOrCloseNav();"/>
       
-      
-        <div class="mainContent">
+        <div id="mainContent">
             
-            <div id="experiencePageHeader">
+            <div id="basicTitleDiv">
 
-                <div id="experiencePageTitle">
-                    <p class="typedOutText" id="experiencePageHeadTyped">My Experiences&thinsp;</p>
-                 
-                </div>
+                
+                <p class="typedOutText" id="basicTitleText">My <span style="color: #ac83e6">Experience</span></p>
+                
 
-                <p class="fadeIn" id = "experiencePageQuote">var Knowledge = Education + Experience</p>
+                <p class="fadeInVis" id = "eBasicSubTitle"><span style="color:#0096FF">Knowledge</span> = <span style="color: #ffad64;">Education + Experience</span></p>
                   
 
 
-
             </div>
 
-            <div class="w3-content w3-display-container">
+            <div id = "jobSlideShow" class="fadeInVis basicDiv">
+                <div class="basicHeader">
+                    <h2 class="typedOutText">Work Experience</h2>
+                </div>
+                
+                <div class="slideShowContainer">
+                    <div class="slideShowLinks">
+                        <ul>
+                            <li class=""><a onclick="changeSlide(this)">Code Ninjas</a></li>
+                            <li><a class="linkHalfVis"  onclick="changeSlide(this)">Stem Away</a></li>
+                            <li><a class="linkHalfVis" onclick="changeSlide(this)">Astro Developments</a></li>
+                            <li><<a class="linkHalfVis" onclick="changeSlide(this)">Private Tutoring</a></li>
+                        </ul>
+                    </div>
+                    <div class="slideShowData"> 
+                        
+                        <h1 class="slideHeading">Code Ninjas</h1>
+                        
+                        <div class="basicText" id="CN">
+                            <ul>
+                                <li>CLorem ipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li>
+                                <li>NLorem ipsum dolor sit amet consectetur adipisicing elit. Ea earum repellendus nobis distinctio dolorem neque tempora. Praesentium dolore sed, suscipit repudiandae neque tempora, consectetur exercitationem laboriosam, quis natus nemo odit!</li>
+                            </ul>
+                        </div>
+
+                        <div class="basicText" id="SA">
+                            <ul>
+                                <li class="noVis">Sipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li> 
+                                <li class="noVis">Adorem ipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li>
+                            </ul>
+                        </div>
+
+                        <div class="basicText" id="AD">
+                            <ul>
+                                <li class="noVis">Aipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li> 
+                                <li class="noVis">Ddorem ipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li>
+                            </ul>
+                        </div>
+
+                        <div class="basicText" id="PT">
+                            <ul>
+                                <li class="noVis">Pipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li> 
+                                <li class="noVis">Tdorem ipsum dolor sit amet consectetur adipisicing elit. Odit error dignissimos reprehenderit, commodi fuga ullam, ex optio dolorem quibusdam saepe voluptates ea quod deserunt aspernatur! Possimus ut atque nulla repudiandae.</li>
+                            </ul>
+                        </div>
+            
+                    </div>
+    
+
+                </div>
                 
 
-                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                
             </div>
-            
+
+
+
                
         </div>
 
 
-      <button class="autoScrollUpButton fadeIn" onclick="document.documentElement.scrollTop = 0;"><img class="scrollUpImage" src="../Images/blackScrollUpArrow.png"/></button>
+      <button id="autoScrollUpButton" onclick="document.documentElement.scrollTop = 0;"><img id="scrollUpImage" src="../Images/blackScrollUpArrow.png"/></button>
 
     </body>
 

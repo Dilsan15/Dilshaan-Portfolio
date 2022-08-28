@@ -3,7 +3,7 @@
 #sideNav {
     
     height: 100%; 
-    width: 0%; 
+    width: 0; 
     top: 0; 
     left: 0;
     padding-top: 0.2rem;
@@ -31,7 +31,7 @@
     display: block;
     color: white;
     text-decoration: none;
-    font-size: 200%;
+    font-size: 2vw;
     font-family: 'Nanum Gothic Coding', monospace;
     transition: 0.8s;
     
